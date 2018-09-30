@@ -1,4 +1,4 @@
-var imgPath = "../img/user.jpg"; /// Global Variable for user Pic
+var imgPath = "./img/user.jpg"; /// Global Variable for user Pic
 
 
 
