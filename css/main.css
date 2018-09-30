@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h4 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+ul {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    list-style-type: none;
+}
+
+ul.mainPost {
+    list-style-type: none;
+
+    margin: 0 auto;
+    box-sizing: border-box
+}
+
+ul.mainPost>li {
+    display: block;
+    padding: 10px;
+    background-color: transparent;
+    border-bottom: 1px solid #ccc;
+}
+
+.container {
+
+    width: 80%;
+    padding: 10px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 8px;
+    margin: 20px auto;
+    padding-bottom: 15px;
+}
+
+.full {
+    width: 100%;
+    box-sizing: border-box
+}
+
+.col-9 {
+    width: 90%;
+    float: left;
+}
+
+.col-1 {
+    width: 10%;
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.mainReplyDiv {
+    margin-bottom: 20px;
+}
+
+.textarea textarea {
+    width: 100%;
+    min-height: 50px;
+    padding: 10px;
+    box-sizing: border-box
+}
+
+.username input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box
+}
+
+.postBtn,
+.comBtn {
+    padding: 12px 25px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    float: right;
+}
+
+.comBtn {
+    padding: 12px 15px;
+}
+
+.mainPostLi {
+    margin-bottom: 10px;
+}
+
+.post-container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.postImg {
+    width: 10%;
+    float: left;
+    padding: 0 10px;
+}
+
+.postImg img {
+    width: 100%;
+}
+
+.postContent {
+    width: 90%;
+    float: left;
+}
+
+.postUsername h4 {
+    margin: 0;
+    padding: 0;
+    color: orange
+}
+
+.postPara p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #4d4d4d;
+    margin-top: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.toolsUl {
+    width: 100%;
+    list-style-type: none;
+    margin: 0
+}
+
+.toolsUl>li {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.toolsUl i {
+    font-size: 35px;
+    line-height: 35px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.downCount {
+    color: red
+}
+
+.upCount {
+    color: green
+}
+
+.reply {}
+
+.replyBtn {
+    padding: 10px 15px;
+}
+
+.share {}
+
+.reply-container {
+    width: 90%;
+    float: right;
+    /* padding: 15px 10px */
+}
+
+.voteCounter {
+    font-weight: 700
+}
+
+.toastr {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: rgb(14, 161, 194);
+    color: #fff;
+    font-weight: 500;
+    display: none;
+}
