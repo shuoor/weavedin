@@ -1,33 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-	<title>CommentsJS</title>
-
-	<link href='css/comments.css' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WeavedIn</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.css">
 </head>
 
 <body>
-	<div id="element">
+    <div class="toastr">
+        Successfully Posted
+    </div>
+    <div class="container">
+        <h4>Update Your Status</h4>
+        <div class="formGroup">
+            <div class="textarea">
+                <textarea placeholder="Start Writing" class="postText" id="postText"></textarea>
+            </div>
+            <div class="full">
+                <div class="col-9">
+                    <div class="username">
+                        <input placeholder="Username" class="uname" id="uname">
+                    </div>
+                </div>
+                <div class="col-1">
+                    <button type="button" class="postBtn cursor-pointer" id="postBtn">Post</button>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="post-container" id="postCont">
+            <ul class="mainPost" id="mainPost">
 
-	</div>
-
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script src="js/comments.js"></script>
-	<script>
-		$(document).ready(function () {
-			$("#element").comments();
-		});
-	</script>
+            </ul>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
